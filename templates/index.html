@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Extendiendo las Aplicaciones de App Engine con Jinja2</title>
+	<link rel="stylesheet" type="text/css"href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+		<h1>Jinja2 y Google App Engine</h1>
+		{%if mensaje == "Extendiendo la app de ninja >:v"%}
+		<p>{{mensaje}}</p>
+		<p>{{diccionario.nombre}}</p>
+		<p>{{diccionario.apellido}}</p>
+		{% endif %}
+		</div>
+	</div>
+</body>
+</html>
